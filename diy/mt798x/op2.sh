@@ -60,3 +60,6 @@ sed -i "s/MT7981_AX3000_5G/SimpleWrt-5G/g" package/mtk/drivers/wifi-profile/file
 ##New WiFi
 sed -i "s/ImmortalWrt-2.4G/SimpleWrt-2.4G/g" package/mtk/applications/mtwifi-cfg/files/mtwifi.sh
 sed -i "s/ImmortalWrt-5G/SimpleWrt-5G/g" package/mtk/applications/mtwifi-cfg/files/mtwifi.sh
+
+
+bash $GITHUB_WORKSPACE/openclash-dev.sh arm64
